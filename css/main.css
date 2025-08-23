@@ -1,0 +1,75 @@
+@font-face{font-family:"Tahoma";src:url("../font/tahoma.ttf") format("truetype");}
+@font-face{font-family:"Caveat";src:url("../font/Caveat-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Caveat";src:url("../font/Caveat-Bold.ttf") format("truetype");font-weight:700;}
+@font-face{font-family:"Cygre";src:url("../font/Cygre-Thin.ttf") format("truetype");font-weight:100;}
+@font-face{font-family:"Cygre";src:url("../font/Cygre-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Cygre";src:url("../font/Cygre-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Cygre";src:url("../font/Cygre-Bold.ttf") format("truetype");font-weight:700;}
+@font-face{font-family:"Golos Text VF";src:url("../font/GolosText-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Golos Text VF";src:url("../font/GolosText-SemiBold.ttf") format("truetype");font-weight:600;}
+@font-face{font-family:"Helvetica Neue";src:url("../font/HelveticaNeue-Roman.otf") format("opentype");font-weight:400;}
+@font-face{font-family:"Helvetica Neue";src:url("../font/HelveticaNeue-Medium.otf") format("opentype");font-weight:500;}
+@font-face{font-family:"Inter";src:url("../font/Inter_28pt-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Inter";src:url("../font/Inter_28pt-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Inter";src:url("../font/Inter_28pt-Bold.ttf") format("truetype");font-weight:700;}
+@font-face{font-family:"Inter Tight";src:url("../font/InterTight-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Inter Tight";src:url("../font/InterTight-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Inter Tight";src:url("../font/InterTight-SemiBold.ttf") format("truetype");font-weight:600;}
+@font-face{font-family:"Involve";src:url("../font/Involve-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Involve";src:url("../font/Involve-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Involve";src:url("../font/Involve-SemiBold.ttf") format("truetype");font-weight:600;}
+@font-face{font-family:"Involve";src:url("../font/Involve-Bold.ttf") format("truetype");font-weight:700;}
+@font-face{font-family:"Manrope";src:url("../font/Manrope-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Manrope";src:url("../font/Manrope-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Mulish";src:url("../font/Mulish-Regular.ttf") format("truetype");font-weight:400;}
+@font-face{font-family:"Mulish";src:url("../font/Mulish-Medium.ttf") format("truetype");font-weight:500;}
+@font-face{font-family:"Mulish";src:url("../font/Mulish-Bold.ttf") format("truetype");font-weight:700;}
+
+/* CSS-переменные */
+
+
+:root{
+  --font-family:"Involve",sans-serif;
+  --second-family:"Cygre",sans-serif;
+  --third-family:"Tahoma",sans-serif;
+  --font3:"Inter",sans-serif;
+  --font4:"Mulish",sans-serif;
+  --font5:"Golos Text VF",sans-serif;
+  --font6:"Inter Tight",sans-serif;
+  --font7:"Helvetica Neue",sans-serif;
+  --font8:"Caveat",sans-serif;
+  --font9:"Manrope",sans-serif;
+  --color-neutral-bg: #fcf6f0;
+  --color-neutral-white: #fff;
+  --color-neutral-200: #efefef;
+  --color-color-500-secondary: #ffa811;
+  --color-color-500-tertiary: #f46d44;
+  --color-neutral-800: #302d2a;
+  --color-color-500-extra-1: #ff5c85;
+  --color-color-500-extra-2: #9358ff;
+  --color-color-500-extra-3: #6427e6;
+  --color-color-500-primary: #079247;
+  --color-color-100-primary: #ecf6f1;
+  --color-color-100-secondary: #fff5e0;
+  --color-color-100-tertiary: #fff0e6;
+  --color-color-100-extra-1: #ffe9ee;
+  --color-color-100-extra-2: #f0e7ff;
+  --color-color-100-extra-3: #e4e2ff;
+  --color-neutral-900: #120f0c;
+  --color-neutral-300: #d9d7d5;
+}
+
+
+
+a{transition:all .4s ease;text-decoration:none;color:inherit;}
+a:hover{color:inherit}
+svg,svg *{transition: all .4s;}
+ol,ul,p{padding: 0;margin: 0;}
+li{list-style:none;}
+img{max-width:100%;}
+input,button{transition:all .4s ease;border:0;outline:none;box-shadow:unset;}
+body{display: flex;flex-direction: column;background-color: var(--sine-seryy-fon);min-height: 100vh;background-image: url(../img/bg.svg);background-position: top center;background-repeat: no-repeat;background-size: cover;}
+body::-webkit-scrollbar-track,::-webkit-scrollbar-track{background-color:transparent;border-radius:50px;}
+body::-webkit-scrollbar,::-webkit-scrollbar{width:3px;border-radius:6px;height: 3px;}
+body::-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb{background-color:var(--sine-seryy-fon);border-radius:50px;}
+path{transition:all .4s ease;}
