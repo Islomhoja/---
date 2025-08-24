@@ -146,7 +146,7 @@ main{overflow: hidden;}
 .edu-star3{top: -105px;right: -300px;width: 351px;}
 .edu-star4{width: 351px;top: 252px;right: -31px;}
 .education-desc{font-family: var(--font-family);font-weight: 400;font-size: 16px;line-height: 125%;text-align: center;color: var(--color-neutral-800);max-width: 575px;margin: 0 auto 40px;padding-top: 5px;}
-.edu-svg{width: 43px;height: auto;margin-right: 15px;}
+.edu-svg{width: 43px;height: auto;margin-right: 15px;min-width: 43px}
 .edu-item-txt{font-family: var(--font-family);font-weight: 400;font-size: 16px;line-height: 125%;color: var(--color-neutral-800);}
 .edu-left-item{display: flex;align-items: center;border-bottom: 1px solid var(--color-neutral-200);padding: 14px 0 14px 7px;}
 .edu-img-right{border-radius: 8px 32px 8px 8px;height: auto;aspect-ratio: 538 / 375;object-fit: cover;}
