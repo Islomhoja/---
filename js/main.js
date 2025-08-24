@@ -1,29 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const swiper = new Swiper(".swiper-screenshot", {
-        spaceBetween: 50,
-        slidesPerView: 3,
-        pagination: {
-          el: ".swiper-pagination",
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 9,
+        freeMode: true,
+        watchSlidesProgress: true,
+        loop: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+        effect: "fade",
+        loop: true,
+        thumbs: {
+          swiper: swiper,
         },
-        breakpoints: {
-            // when window width is >= 640px
-            1: {
-              slidesPerView: 1,
-              spaceBetween: 20
-            },
-            // when window width is >= 768px
-            991: {
-              slidesPerView: 2,
-              spaceBetween: 30
-            },
-            1600: {
-              slidesPerView: 3,
-              spaceBetween: 50
-            }
-        }
-      });
-
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
 
 
     var phoneInputs = document.querySelectorAll('input[type="tel"]');
