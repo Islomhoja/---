@@ -171,7 +171,7 @@ main{overflow: hidden;}
 .schedule-time,.schedule-desc{font-family: var(--font-family);font-weight: 700;font-size: 16px;line-height: 125%;color: var(--color-neutral-800);}
 .schedule-time{font-family: var(--font-family);font-weight: 700;margin-bottom: 3px;}
 .schedule-item{background: var(--color-neutral-white);border-radius: 12px;padding: 16px;display: flex;align-items: center;gap:15px;transform: rotate(-2deg);}
-.schedule-item svg{width: 32px;height: 32px;}
+.schedule-item svg{width: 32px;height: 32px;min-width:32px}
 .schedule-item:nth-child(even){transform: unset;}
 .schedule-content{max-width: 400px;display: flex;flex-direction: column;margin: auto;gap:10px}
 .star-sched{width: 283px;position: absolute;top: -180px;right: -214px;}
@@ -278,7 +278,7 @@ a.contact-item:hover{color: var(--color-color-100-extra-3);}
   .val-small-flex{max-width: 100%;}
   .edu-flex{grid-template-columns: 1fr 1fr;}
   .edu-star2{top: 350px;left: -100px;}
-  .talant-img{right: -75px;top: 93px;}
+  .talant-img{right: -15px;top: 235px;width: 221px;}
   .swiper-button-gal.swiper-button-prev{left: 43%;}
   .swiper-button-gal.swiper-button-next{right: 43%;}
   .partner-col{max-width: 290px;}
@@ -339,5 +339,7 @@ a.contact-item:hover{color: var(--color-color-100-extra-3);}
   .adv-item:nth-child(4){margin: 90px 100px 0 auto;}
   .btn-enroll{width: 100%;}
   .val-small-item{font-size: 14px;}
-
+  .swiper-button-gal.swiper-button-prev{left: 37%;}
+  .swiper-button-gal.swiper-button-next{right: 37%;}
+  .contact-map{aspect-ratio: 358/260;}
 }
