@@ -6,6 +6,17 @@ document.addEventListener("DOMContentLoaded", function () {
         freeMode: true,
         watchSlidesProgress: true,
         loop: true,
+        breakpoints: {
+            1: {
+              slidesPerView: 5,
+            },
+            768: {
+              slidesPerView: 8,
+            },
+            992: {
+                slidesPerView: 10,
+            },
+        },
     });
     var swiper2 = new Swiper(".mySwiper2", {
         effect: "fade",
@@ -16,6 +27,16 @@ document.addEventListener("DOMContentLoaded", function () {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+    });
+
+
+    var swiper = new Swiper(".parents-review", {
+        slidesPerView: "auto",
+        spaceBetween: 8,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
     });
 
