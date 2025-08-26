@@ -341,7 +341,8 @@ a.contact-item:hover{color: var(--color-color-100-extra-3);}
   .adv-item:nth-child(4){margin: 90px 100px 0 auto;}
   .btn-enroll{width: 100%;}
   .val-small-item{font-size: 14px;}
-  .swiper-button-gal.swiper-button-prev{left: 37%;}
-  .swiper-button-gal.swiper-button-next{right: 37%;}
+  .swiper-button-gal.swiper-button-prev{left: 36%;}
+  .swiper-button-gal.swiper-button-next{right: 36%;}
   .contact-map{aspect-ratio: 358/260;}
+  .swiper-small-gallery .swiper-slide{max-height:50px;}
 }
