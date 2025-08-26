@@ -269,7 +269,7 @@ a.contact-item:hover{color: var(--color-color-100-extra-3);}
   .swiper-button-gal.swiper-button-prev{left: 45%;}
   .swiper-button-gal.swiper-button-next{right: 45%;}
   .contact-flex{grid-template-columns: calc(35% - 12px) calc(65% - 12px);gap: 24px;}
-
+  .form-section{background-image: url(../img/bg-form2.png)}
 }
 @media (max-width:991px) {
   .star-fly-left{top: 20px;left: -250px;}
